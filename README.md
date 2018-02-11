@@ -80,7 +80,7 @@ as_value()
 -----
 When the result contains values in a single column.
 ```python
- 	>>> dbquery("select count(*) from django_migrations limit 4", app).as_value()
+    >>> dbquery("select count(*) from django_migrations limit 4", app).as_value()
     >>> 12
 ```
 
