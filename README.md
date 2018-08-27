@@ -1,4 +1,4 @@
-* This repository is no more maintained.
+** This repository is no longer maintained. **
 
 dbquery: easy sql queries in django
 ===================================
