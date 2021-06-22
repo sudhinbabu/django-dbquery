@@ -91,6 +91,7 @@ insert, update or delete queries
 for these queries this version will return a dbquery instance but if we try to fetch 
 using above methods will give errors. i am planning to add new fetures about meta data in 
 next release.
+Test line
 eg:
 ```python
 	>>> dbquery("update  django_content_type set app_label = %s where id = %s", "admin", 1)
